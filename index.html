@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>5кт</title>
+  <style>
+    body {
+      margin: 0;
+      background: #f1f4ff;
+      font: 16px system-ui, sans-serif;
+    }
+
+    main {
+      display: grid;
+      justify-content: center;
+      gap: 24px;
+      padding: 32px;
+    }
+
+    .square {
+      display: grid;
+      place-items: center;
+      width: 150px;
+      height: 150px;
+      background: #3451ae;
+    }
+
+    .square--large {
+      width: 200px;
+      height: 200px;
+      background: #d12626;
+    }
+
+    a { color: white; }
+  </style>
+</head>
+<body>
+  <main aria-label="Три квадрата в вертикальном ряду">
+    <div class="square"></div>
+    <div class="square"><a href="https://github.com/makarp047-hue">makarp047-hue</a></div>
+    <div class="square square--large"></div>
+  </main>
+</body>
+</html>
